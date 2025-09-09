@@ -163,6 +163,6 @@ El modelo de **MoodTasker** es local y minimalista. Se centra en Usuario, Cursos
 
 El diagrama de clases es el siguiente:
 
-![Clases]()
+![Clases](PlantUML_MoodTasker.png)
 
 ---
