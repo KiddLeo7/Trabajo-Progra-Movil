@@ -130,13 +130,6 @@ El modelo de **MoodTasker** es local y minimalista. Se centra en Usuario, Cursos
 - `createdAt: DateTime`
 - `updatedAt: DateTime`
 
-**Subtarea**
-- `id: String`
-- `tareaId: String` *(FK → Tarea.id)*
-- `titulo: String`
-- `minutosEstimados: int?` *(opcional)*
-- `estado: EstadoTarea = PENDIENTE`
-
 **MoodLog**
 - `id: String`
 - `usuarioId: String` *(FK → Usuario.id)*
@@ -147,14 +140,13 @@ El modelo de **MoodTasker** es local y minimalista. Se centra en Usuario, Cursos
 - **Usuario 1 — 1 Settings**
 - **Usuario 1 — * Curso**
 - **Curso 1 — * Tarea**
-- **Tarea 1 — * Subtarea**
 - **Usuario 1 — * MoodLog**
 
 ### 🔹 Reglas e inferencias
 
 - **Título obligatorio**: no puede estar vacío.  
 - **Deadline**: opcional; si existe, influye en la recomendación.  
-- **Estado por defecto**: `PENDIENTE` para nuevas tareas y subtareas.  
+- **Estado por defecto**: `PENDIENTE` para nuevas tareas.  
 - **Dificultad/Energía**: se calculan automáticamente con reglas sencillas:
 
 #### 📌 Palabras clave en el título
