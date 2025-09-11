@@ -1,5 +1,5 @@
-# 2025-2 Programación Móvil - 📱 MoodTasker  
-**Planificador según tu energía/motivación**  
+# 2025-2 Programación Móvil - MoodTasker App  
+## Planificador según tu energía/motivación 
 
 MoodTasker es una aplicación móvil desarrollada en **Flutter**, pensada para estudiantes universitarios que suelen procrastinar y buscan una forma más sencilla de organizar sus tareas.  
 
@@ -12,26 +12,27 @@ De esta forma, cuando el usuario se siente motivado, la app le recomienda tareas
 ## ⚙️ Configuración del Ambiente de Desarrollo  
 
 ### 🖥️ Requisitos previos
-- [Flutter SDK](https://docs.flutter.dev/get-started/install)  
-- Android Studio o VS Code con extensiones de Flutter/Dart  
-- Emulador Android/iOS o un dispositivo físico conectado  
+- Instalar Android Studio: Este nos permitira a su vez instalar el SDK de Android, que permite conectar el codigo con el sistema operativo y hace posible crear y ejecutar la aplicacion de manera local o en un equipo virtual. 
+> *Figura 1: Instalación de Android Studio*
 
-### 🚀 Pasos de instalación
-```bash 
-# 1. Crear un nuevo proyecto Flutter
-flutter create moodtasker
+<img src=Images/AndroidStudio.png> 
 
-# 2. Entrar al directorio del proyecto
-cd moodtasker
+- Instalar la herramienta [Flutter SDK](https://docs.flutter.dev/get-started/install).  Esta nos permite contar con las herramientas y librerias que permiten compilar y ejecutar la aplicacion.    
+> *Figura 2: Instalación de Flutter*
 
-# 3. Ejecutar la app en emulador o dispositivo físico
-flutter run
-```
-> *Figura 1: Instalación de Flutter*
+<img src=Images/Flutter.png>
 
----
+- Configuracion del path de Flutter: De esta manera tendremos la ruta definida en el sistema operativo para poder emplear la terminal de comandos desde Visual Studio Code o CMD y emplear los comandos propios de Flutter.  
+> *Figura 3: Configuracion de Path*
 
-## 🗂️ Diagrama de Despliegue  
+<img src=Images/Path.png> 
+
+- Instalacion de Ruby: se utiliza para desarrollar el backend de la aplicación, permitiendo gestionar la lógica del servidor, procesar datos y establecer la comunicación entre la aplicación móvil y la base de datos.
+> *Figura 4: Instalación de Ruby*
+
+<img src=Images/Ruby.png> 
+
+## 🗂️ Diagrama de Despliegue  (Corregir esto)
 
 En esta primera versión, toda la lógica y los datos se manejan **de forma local** en el dispositivo móvil.  
 
@@ -163,6 +164,6 @@ El modelo de **MoodTasker** es local y minimalista. Se centra en Usuario, Cursos
 
 El diagrama de clases es el siguiente:
 
-![Clases](PlantUML_MoodTasker.png)
+<img src=Images/PlantUML_MoodTasker.png> 
 
 ---
