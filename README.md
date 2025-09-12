@@ -42,7 +42,7 @@ En esta primera versión, toda la lógica y los datos se manejan **de forma loca
 👉 **Futuro**: integración con la nube para sincronización entre dispositivos.  
 
 > *Figura 2: Diagrama de despliegue*  
-
+<img src=Diagram de Despliegue.png>
 ---
 
 ## ✅ Requerimientos No Funcionales  
