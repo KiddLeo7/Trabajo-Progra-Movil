@@ -32,7 +32,7 @@ De esta forma, cuando el usuario se siente motivado, la app le recomienda tareas
 
 <img src=Images/Ruby.png> 
 
-## 🗂️ Diagrama de Despliegue  (Corregir esto)
+## 🗂️ Diagrama de Despliegue  
 
 En esta primera versión, toda la lógica y los datos se manejan **de forma local** en el dispositivo móvil.  
 
