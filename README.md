@@ -41,7 +41,7 @@ En esta primera versión, toda la lógica y los datos se manejan **de forma loca
 
 👉 **Futuro**: integración con la nube para sincronización entre dispositivos.  
 
-> *Figura 2: Diagrama de despliegue*  
+> *Figura 5: Diagrama de despliegue*  
 <img src=Images/DiagramadeDespliegue.png>
 ---
 
@@ -72,7 +72,7 @@ En esta primera versión, toda la lógica y los datos se manejan **de forma loca
 
 En **MoodTasker**, el objetivo es reducir fricción: el estudiante registra sus tareas en segundos y, cuando lo necesita, obtiene sugerencias acordes a su energía actual. El **Usuario** es el actor principal y puede: configurar su perfil básico (nombre y cursos), registrar tareas con el mínimo de campos, consultar su lista completa, realizar un **check-in** de estado de ánimo para recibir **recomendaciones** priorizadas, y marcar avances. El sistema aplica reglas internas para estimar dificultad/energía sin pedir datos extra y envía recordatorios locales cuando se acercan plazos.
 
-![Diagrama de Casos de Uso](docs/diagrama_casos_de_uso_moodtasker.png)
+<img src="Images/CasosUsoDiagrama.jpeg">
 
 *A continuación se listan los casos de uso principales:*
 
@@ -167,3 +167,62 @@ El diagrama de clases es el siguiente:
 <img src=Images/PlantUML_MoodTasker.png> 
 
 ---
+## Prototipos
+
+En función a los casos de uso se proponen los siguientes prototipos:
+
+> *Figura 6: UC1: Registrarse / Configurar perfil*  
+
+<img src="Images/UC1.jpeg">
+
+---
+
+> *Figura 7: UC2: Registrar tarea*  
+
+<img src="Images/UC2.jpeg">
+
+---
+
+> *Figura 8: UC3: Consultar lista de tareas*  
+
+<img src="Images/UC3.jpeg">
+
+---
+> *Figura 9: UC4: Ver/editar/eliminar tarea*  
+
+<img src="Images/UC4.jpeg">
+
+---
+> *Figura 10: UC5: Check-in de estado de ánimo*  
+
+<img src="Images/UC5.jpeg">
+
+---
+> *Figura 11: UC6: Recibir recomendaciones por mood*  
+
+<img src="Images/UC6.jpeg">
+
+---
+> *Figura 12: UC7: Marcar tarea como completada*  
+
+<img src="Images/UC7.jpeg">
+
+---
+> *Figura 13: UC8: Gestionar cursos*  
+
+<img src="Images/UC8.jpeg">
+
+---
+> *Figura 14: UC9: Configurar recordatorios*  
+
+<img src="Images/UC9.jpeg">
+
+---
+> *Figura 15: UC10: Recibir alertas por deadline*  
+
+<img src="Images/UC10.jpeg">
+
+---
+> *Figura 16: UC11: Ver historial/estadísticas básicas*  
+
+<img src="Images/UC11- Ver historial.jpeg">
